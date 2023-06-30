@@ -30,6 +30,7 @@ function Products() {
                     <p>Category : {ele.category}</p>
                     <button className="btn" onClick={(()=>{
                         setCartData([...cartdata, ele])
+                        alert("Product Added to cart")
 
                     })} >Add Cart</button>
                 </div>
